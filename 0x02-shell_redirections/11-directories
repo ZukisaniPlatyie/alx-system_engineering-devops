@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -name '.' |wc -l
+ls -al ./ d* | sort | wc -l
